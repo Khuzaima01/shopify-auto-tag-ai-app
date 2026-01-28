@@ -42,4 +42,7 @@ return [
         'redirect_uri' => env('SHOPIFY_APP_URL') . '/api/auth/callback',
     ],
 
+    'gemini' => [
+        'api_key' => env('GOOGLE_API_KEY'),
+    ],
 ];
